@@ -1,0 +1,116 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fce4ec;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #ad1457;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #880e4f;
+  margin-top: 30px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #f8bbd0;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ec407a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #d81b60;
+  transform: scale(1.02);
+}
+
+.result {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #c2185b;
+}
+
+.modo-escuro {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+.modo-escuro .card {
+  background-color: #2c2c2c;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
+}
+
+.modo-escuro input, 
+.modo-escuro button {
+  background-color: #3c3c3c;
+  color: #f5f5f5;
+  border: 1px solid #555;
+}
+
+.modo-escuro .result {
+  color: #ff80ab;
+}
+
+.modo-escuro-botao {
+  float: right;
+  margin-bottom: 20px;
+  background-color: #c2185b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.modo-escuro-botao:hover {
+  background-color: #ad1457;
+}
+
+#loader {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  z-index: 999;
+  display: none;
+}
